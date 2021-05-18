@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lab3</title>
+    <link rel="stylesheet" type="text/css" href="../src/colors.css">
+    <link rel="stylesheet" type="text/css" href="../src/root.css">
+    <script type="text/javascript" src="../src/script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <header class="shadow">
+        <h2>
+            Звіти з лабораторних робіт
+        </h2>
+        <h2>
+            з дисципліни Технології .Net розробки веб-додатків
+        </h2>
+        <h2>
+            студента групи ІТ-81 Сніжка Максима
+        </h2>
+    </header>
+    <div class="topbar flex horizontal-alignment">
+        <a class="topbar-item shadow" href="../index.html">Title</a>
+        <a class="topbar-item shadow" href="1.html">Lab 1</a>
+        <a class="topbar-item shadow" href="2.html">Lab 2</a>
+        <a class="topbar-item shadow active" href="3.html">Lab 3</a>
+        <a class="topbar-item shadow" href="4.html">Lab 4</a>
+        <a class="topbar-item shadow" href="5.html">Lab 5</a>
+        <a class="topbar-item shadow" href="6.html">Lab 6</a>
+        <a class="topbar-item shadow" href="7.html">Lab 7</a>
+        <a class="topbar-item shadow" href="8.html">Lab 8</a>
+        <a class="topbar-item shadow" href="9.html">Lab 9</a>
+    </div>
+    <div class="main">
+        <div id="menu" class="shadow">
+            <div class="dropdown">
+                <a class="menu-item flex " onclick="ChangeTab(this, '1')">1. Тема, мета та постановка задачі
+                    лабораторної роботи №3.</a>
+            </div>
+            <div class="dropdown">
+                <a class="menu-item flex" onclick="ChangeTab(this, '2')">2. Класи з описом властивостей для закритих
+                    полів</a>
+            </div>
+            <div class="dropdown">
+                <a class="menu-item flex">3. Проектування ПЗ</a>
+                <div class="submenu">
+                    <a class="submenu-item flex" onclick="ChangeTab(this, '3')">3.1. Проектування структури ПЗ -
+                        UML-діаграма класів</a>
+                    <a class="submenu-item flex" onclick="ChangeTab(this, '4')">3.2. Таблиця класів</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="menu-item flex">4. Кодування (програмування)</a>
+                <div class="submenu">
+                    <a class="submenu-item flex" onclick="ChangeTab(this, '5')"> 4.1. Файлова структура проекту</a>
+                    <a class="submenu-item flex" onclick="ChangeTab(this, '6')">4.2. Програмний код всіх файлів.
+                        Результат виконання програми.</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="menu-item flex">5. Впровадження та супроводження ПЗ</a>
+                <div class="submenu">
+                    <a class="submenu-item flex" onclick="ChangeTab(this, '7')">5.1. Папка з проектом</a>
+                    <a class="submenu-item flex" onclick="ChangeTab(this, '8')">5.2. Запуск ехе-файла</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="1" class="active-item">
+                <p style="margin: 0px  0px 0px 30px">Тема: ВИКОРИСТАННЯ ВЛАСТИВОСТЕЙ. АВТОМАТИЧНІ ВЛАСТИВОСТІ.
+                    СКОРОЧЕНИЙ ЗАПИС ВЛАСТИВОСТЕЙ.
+                </p>
+                <p style="padding: 0px 0px 0px 30px">
+                    Мета: Здійснити введення та виведення даних закритих полів класів, застосовуючі методи-властивості.
+                </p>
+                <p style="padding: 0px 0px 0px 30px">
+                    Постановка задачі:
+                <ol style="list-style-type: none">
+                    <li>1. Доповнити програмну реалізацію класів методами-властивостями класів, введення та виведення
+                        даних закритих полів класів.
+                    </li>
+                    <li>2. Протестувати програму, шляхом запуску програми, введенням та виведенням значень закритих
+                        полів.
+                    </li>
+            </div>
+            <div id="2" class="item">
+                <p>Класи з описом властивостей для закритих полів</p>
+                <img id="table" src="./images3/table1.png"/>
+            </div>
+            <div id="3" class="item">
+                <p>Проектування структури ПЗ - UML-діаграма класів</p>
+                <img id="table" src="./images3/diagram1.png"/>
+            </div>
+            <div id="4" class="item">
+                <p>Таблиця класів</p>
+                <img id="table" src="./images3/tableclasses1.png"/>
+                <img id="table" src="./images3/tableclasses2.png"/>
+                <img id="table" src="./images3/tableclasses3.png"/>
+                <img id="table" src="./images3/tableclasses4.png"/>
+                <img id="table" src="./images3/tableclasses5.png"/>
+            </div>
+            <div id="5" class="item">
+                <p>Файлова структура проекту</p>
+                <img id="table" src="./images3/Folder.png"/>
+            </div>
+            <div id="6" class="item">
+                <p>Програмний код всіх класів</p>
+                <p>Програмний код класу AbstractUser</p>
+                <img id="table" src="./images3/class1.png"/>
+                <p>Програмний код класу Lab2_Property_Tester</p>
+                <img id="table" src="./images3/class2.png"/>
+                <p>Результат роботи програми</p>
+                <img id="table" src="./images3/result.png"/>
+            </div>
+            <div id="7" class="item">
+                <p>Папка з проектом</p>
+                <a href="https://github.com/Cruciano/.Net_Labs">Папка з проектом</a>
+            </div>
+            <div id="8" class="item">
+                <p>Запуск exe-файлу</p>
+                <a href="https://drive.google.com/file/d/1CDX4uYgKe3lrlsJm01XtbUQRo0fRMBxM/view?usp=sharing">Завантажити
+                    програму</a>
+            </div>
+        </div>
+    </div>
+    <footer class="shadow">
+    </footer>
+</div>
+</body>
+</html>

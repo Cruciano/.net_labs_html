@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lab2</title>
+    <link rel="stylesheet" type="text/css" href="../src/colors.css">
+    <link rel="stylesheet" type="text/css" href="../src/root.css">
+    <script type="text/javascript" src="../src/script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <header class="shadow">
+        <h2>
+            Звіти з лабораторних робіт
+        </h2>
+        <h2>
+            з дисципліни Технології .Net розробки веб-додатків
+        </h2>
+        <h2>
+            студента групи ІТ-81 Сніжка Максима
+        </h2>
+    </header>
+    <div class="topbar flex horizontal-alignment">
+        <a class="topbar-item shadow" href="../index.html">Title</a>
+        <a class="topbar-item shadow" href="1.html">Lab 1</a>
+        <a class="topbar-item shadow active" href="2.html">Lab 2</a>
+        <a class="topbar-item shadow" href="3.html">Lab 3</a>
+        <a class="topbar-item shadow" href="4.html">Lab 4</a>
+        <a class="topbar-item shadow" href="5.html">Lab 5</a>
+        <a class="topbar-item shadow" href="6.html">Lab 6</a>
+        <a class="topbar-item shadow" href="7.html">Lab 7</a>
+        <a class="topbar-item shadow" href="8.html">Lab 8</a>
+        <a class="topbar-item shadow" href="9.html">Lab 9</a>
+    </div>
+    <div class="main">
+        <div id="menu" class="shadow">
+            <div class="dropdown">
+                <a class="menu-item flex" onclick="ChangeTab(this, '1')">1. Тема, мета та постановка задачі лабораторної
+                    роботи №2.</a>
+            </div>
+            <div class="dropdown">
+                <a class="menu-item flex">2. Проектування ПЗ</a>
+                <div class="submenu">
+                    <a class="submenu-item flex" onclick="ChangeTab(this, '2')">2.1 Проектування структури ПЗ -
+                        UML-діаграма класів</a>
+                    <a class="submenu-item flex" onclick="ChangeTab(this, '3')">2.2 Таблиця класів</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="menu-item flex">3. Кодування (програмування) </a>
+                <div class="submenu">
+                    <a class="submenu-item flex" onclick="ChangeTab(this, '4')">3.1 Файлова структура проекту</a>
+                    <a class="submenu-item flex" onclick="ChangeTab(this, '5')">3.2 Програмні коди класів з
+                        конструкторами</a>
+                    <a class="submenu-item flex" onclick="ChangeTab(this, '6')">3.3 Програмний код класу Program</a>
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="menu-item flex">4. Впровадження та супроводження ПЗ</a>
+                <div class="submenu">
+                    <a class="submenu-item flex" onclick="ChangeTab(this, '7')">5.1. Папка з проектом</a>
+                    <a class="submenu-item flex" onclick="ChangeTab(this, '8')">5.2. Запуск ехе-файла</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="1" class="active-item">
+                <p style="margin: 0px  0px 0px 30px">Тема: КОНСТРУКТОРИ.МОДИФИКАТОРЫ ДОСТУПУ В C# И UML. ДІАГРАМИ
+                    КЛАСІВ. ВІДНОШЕННЯ МІЖ КЛАСАМИ
+                </p>
+                <p style="padding: 0px 0px 0px 30px">
+                    Мета: Здійснити об’єктно-орієнтоване проектування з урахуванням модифікаторів доступу в C# и UML і
+                    добавлення конструкторів у діаграму класів та реалізація їх у програмному коді. Вивчити особливості
+                    використання різних видів конструкторів. Доповнити програму конструкторами різних видів
+                </p>
+                <p>
+                <ol style="list-style-type: none"> Постановка задачі:
+                    <li>1. Доповнити інтерфейси та реалізації класів методами-конструкторами класів (використати
+                        конструктори по умовчанню, ініціалізації (введення значень з клавіатури, завдання їх за виразами
+                        та через виклик інших методів-членів класу).
+                    </li>
+                    <li>2. Протестувати програму, демонструючи послідовність викликів конструкторів виведенням на екран
+                        повідомлень про створення об’єктів
+                    </li>
+                    <li>
+                        <ul style="padding: 0px; list-style-type: none">3. Продемонструвати створення об’єктів за
+                            допомогою різних видів конструкторів:
+                            <li style="padding: 0px 30px">3.1. через ініціалізацію значень атрибутів класів списком
+                                аргументів, використовуючи конструктор ініціалізації;
+                            </li>
+                            <li style="padding: 0px 30px">3.2. через присвоєння одних об’єктів іншим того самого типу,
+                                використовуючи конструктор копіювання;
+                            </li>
+                            <li style="padding: 0px 30px">3.3. створення об’єкта за допомогою конструктора за
+                                замовчуванням.
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+                </p>
+            </div>
+            <div id="2" class="item">
+                <p>UML-діаграма класів проекту</p>
+                <img id="table" src="./images2/Diagram1.png"/>
+            </div>
+            <div id="3" class="item">
+                <p>Таблиця класів</p>
+                <img id="table" src="./images2/TableClasses1.png"/>
+                <img id="table" src="./images2/TableClasses2.png"/>
+                <img id="table" src="./images2/TableClasses3.png"/>
+                <img id="table" src="./images2/TableClasses4.png"/>
+                <img id="table" src="./images2/TableClasses5.png"/>
+            </div>
+            <div id="4" class="item">
+                <p>Файлова структура проекту</p>
+                <img id="table" src="./images2/Folder.png"/>
+            </div>
+            <div id="5" class="item">
+                <p>Програмні коди класів з конструкторами</p>
+                <p>Програмний код класу AbstractUser</p>
+                <img id="table" src="./images2/Class1.png"/>
+                <p>Програмний код класу Storage</p>
+                <img id="table" src="./images2/Class2.png"/>
+            </div>
+            <div id="6" class="item">
+                <p>Програмний код Program</p>
+                <p>Програмний код класу Program</p>
+                <img id="table" src="./images2/Class3.png"/>
+                <p>Програмний код класу Lab2_Contstructor_Tester</p>
+                <img id="table" src="./images2/Class4.png"/>
+                <p>Результат роботи програми</p>
+                <img id="table" src="./images2/Class5.png"/>
+            </div>
+            <div id="7" class="item">
+                <p>Папка з проектом</p>
+                <a href="https://github.com/Cruciano/.Net_Labs">Папка з проектом</a>
+            </div>
+            <div id="8" class="item">
+                <p>Запуск exe-файлу</p>
+                <a href="https://drive.google.com/file/d/1CDX4uYgKe3lrlsJm01XtbUQRo0fRMBxM/view?usp=sharing">Завантажити
+                    програму</a>
+            </div>
+        </div>
+    </div>
+    <footer class="shadow">
+    </footer>
+</div>
+</body>
+</html>

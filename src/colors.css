@@ -1,0 +1,18 @@
+/*:root{
+    --main-background: #98568d;
+    --main: #F0B746;
+    --whitesmoke: #f0eff2;
+    --darkgray:#3c4043;
+    --dark: #333333;
+    --link: #98568d;
+    --silver: #f0eff2 /*#c1c1c1;
+}*/
+
+:root{
+    --grey: #DCDCDC;
+    --white: #F5F5F5;
+    --grey-dark: #373130;
+    --primery: #F44334;
+    --primery-light: #FF795F;
+    --primery-dark: #B9000A;
+}
